@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 
 export default function HTML(props) {
   return (
-    <html lang="en-gb" {...props.htmlAttributes}>
+    <html {...props.htmlAttributes}>
       <head>
         {props.headComponents}
       </head>
