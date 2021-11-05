@@ -26,6 +26,7 @@ export default class Page extends React.Component {
             		</header>
             		<div className="page__body text-block">
                         
+
             			{htmlToReact(_.get(this.props, 'pageContext.html', null))}
             		</div>
             	</div>
