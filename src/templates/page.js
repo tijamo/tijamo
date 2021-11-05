@@ -6,6 +6,7 @@ import {Layout} from '../components/index';
 import {htmlToReact} from '../utils';
 
 
+const htmlString = `<h1>I'm a string with HTML!</h1>`
 
 // this minimal GraphQL query ensures that when 'gatsby develop' is running,
 // any changes to content files are reflected in browser
