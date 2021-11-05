@@ -25,7 +25,7 @@ export default class Page extends React.Component {
             			<h1 className="page__title">{_.get(this.props, 'pageContext.frontmatter.title', null)}</h1>
             		</header>
             		<div className="page__body text-block">
-                        {dangerouslySetInnerHTML()}
+                        {dangerouslySetInnerHTML("")}
             			{htmlToReact(_.get(this.props, 'pageContext.html', null))}
             		</div>
             	</div>
